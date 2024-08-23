@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 오픈그래프 -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://jinseong.pe.kr">
+  <meta property="og:title" content="Content Title">
+  <meta property="og:image" content="http://jinseong.pe.kr/images/Asset%201.png">
+  <meta property="og:description" content="포트폴리오">
+  <meta property="og:site_name" content="Jinseong's Portfolio">
+  <meta property="og:locale" content="en_US">
+  <!-- 다음의 태그는 필수는 아니지만, 포함하는 것을 추천함 -->
+  <meta property="og:image:width" content="800">
+  <meta property="og:image:height" content="430">
+  <title>Jinseong's Portfolio</title>
+  <!-- 구글폰트 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700&display=swap" rel="stylesheet">
+  <!-- 파비콘 -->
+  <link rel="icon" href="images/favicon.png">
+  <!-- 구글 아이콘 -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <!-- css -->
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/mouseEffect.css">
+
+  <!-- js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"
+    integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script defer src="js/mouseEffect.js"></script>
+  <script defer src="js/js.js" defer></script>
+</head>
+
+<body>
+  <input type="checkbox" id="menu-click" class="menu-click">
+  <div class="menu-modal">
+    <div class="cursor"></div>
+    <div class="cursorfollow"></div>
+    <div class="inner">
+      <div class="modal-top">
+        <img class="modal-logo" src="images/menu-logo.png" alt="gjs">
+        <label for="menu-click">
+          <div class="close"><span class="material-symbols-outlined">
+              close
+            </span></div>
+        </label>
+      </div>
+      <div class="modal-contents">
+        <div class="modal-left">
+          <dl>
+            <dt>My name</dt>
+            <dd>Jinseing-Gwak</dd>
+            <dt>Adress</dt>
+            <dd>경기도 의왕시 행복마을 3로 18</dd>
+            <dt>Contact</dt>
+            <dd>
+              010-7590-1023
+            </dd>
+            <dd>
+              Gorden42@naver.com
+            </dd>
+            <dt class="birth">Birth</dt>
+            <dd>1992.11.10</dd>
+            <dd class="d-day"></dd>
+          </dl>
+  
+        </div>
+        <div class="modal-right">
+          <ul>
+            <li><a href="index.html"><span class="style1">Home</span></a></li>
+            <li><a href="about.html"><span class="style2">Resume</span></a></li>
+            <li><a href="studylist.html"><span class="style3">Study list</span></a></li>
+          </ul>
+          <ol>
+            <li><span class="style4">Carpe diem</span> <span>"오늘을 즐겨라"</span></li>
+            <li><span class="style4">Memento mori</span> <span>"죽음을 기억하라"</span></li>
+            <li><span class="style4">Amor fati</span> <span>"운명을 사랑하라"</span></li>
+          </ol>
+        </div>
+      </div>
+      <div class="copy"><strong>Copyright ⓒ 2022.</strong> <br> Jinseong Gwak All rights reserved.</div>
+  
+    </div>
+  </div>
+  <div class="all-layout">
+    <header>
+      <div class="inner">
+        <div class="header-wrap">
+          <h1 class="logo"><a href="index.html"><img src="images/logo.png" alt="gjs"></a></h1>
+          <strong class="header-title">Jinseong's Portfolio</strong>
+          <label for="menu-click">
+            <div class="menu"><span class="material-symbols-outlined">density_medium</span></div>
+
+          </label>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="about-page1">
+        <div class="inner">
+          <div class="contents">
+            <figure><img src="images/profile.jpg" alt="Mypicture"></figure>
+            <div class="contents-rihgt">
+              <dl>
+                <dt>Name</dt>
+                <dd>Jinseong-Gwak</dd>
+                <dt>E-mail</dt>
+                <dd>Gorden42@naver.com</dd>
+                <dt>Phone</dt>
+                <dd>010-7590-1023</dd>
+                <dt>Adress</dt>
+                <dd>경기도 의왕시 행복마을 3로 18</dd>
+                <dt>Education</dt>
+                <dd>그린컴퓨터학원 안양점</dd>
+                <dt>Certification</dt>
+                <dd>-컴퓨터 활용능력 1급</dd>
+                <dd>-GTQ 1급</dd>
+                <dd>-GTQ i 1급</dd>
+                <dt>Motto</dt>
+                <dd>Carpe diem "오늘을 즐겨라"</dd>
+                <dd>Memento mori "죽는다는 것을 기억하라"</dd>
+                <dd>Amor Fati "운명을 사랑하라"</dd>
+              </dl>
+
+            </div>
+          </div>
+
+        </div>
+
+
+      </section>
+      <section id="about-page2">
+        <div class="inner">
+          <div class="self-introduction">
+            <details>
+              <summary>[성격의 장단점: 차분한 자유주의자]</summary>
+              <p>“모든 것을 관찰하세요. 그리고 그림을 그리세요.”세계적인 작가 ‘프랭크 토마스’가 남긴 말입니다. 이 명언은 평소 차분하지만 자유롭게 주변 사물을 관찰하며 그림 그리기를 좋아하는 저의
+                성격을 잘 표현해줍니다. 관찰자이자 작가로서 작품 활동을 즐기듯이 시간적 여유를 즐기는 것을 좋아합니다.
+                예를들어 저는 동물 다큐멘터리를 보며 자연과 환경을 느끼기를 좋아합니다. 그리고 동물들의 순간적인 움직임을 포착해 드로잉하는 것도 작은 취미입니다. 실제로 한국색연필화협회에서 주최한
+                공모전에 입상을 하는 등 소소한 예술 작품 만들기를 좋아하는 것입니다.
+                이러한 저의 관찰력과 감상 능력은 웹 퍼블리셔로서 디자인 작업물을 검토해서 웹 화면으로 구현하는 직무에 큰 보탬이 될 것이라고 생각합니다. 다소 속도가 느린 단점이 있을 수도 있지만 보다
+                정밀한 관찰과 포인트를 집어내는 면에서 장점이 될 수도 있을 것입니다. 작가적 소양을 갖춘 웹 퍼블리셔로서 활약하겠습니다.</p>
+            </details>
+            <details>
+              <summary>[지원동기: 드로잉에서 포토샵으로]</summary>
+              <p>그림 그리기를 좋아하는 저에게 문득 컴퓨터를 통한 디자인 편집 또한 매력적인 작업으로 다가왔습니다. 독학으로 공부하고 실습을 거치면서 GTQ 포토샵 1급 자격증과 컴퓨터활용능력 1급
+                자격증을 취득하여 ‘컴퓨터 디자인’능력의 기초를 닦았습니다. 그리고 다양한 포토샵 작업물을 접할 수 있었습니다.
+                이후 컴퓨터와 드로잉의 접점이 웹 디자인에 있다는 것을 깨달으면서 이 분야에 대한 본격적인 관심을 갖게 되었습니다. 나아가 웹 디자인 작업물을 웹 페이지로 구현하는 검토 작업이 저의
+                차분한 작가적 관찰력에 더욱 잘 어울린다고 생각해 ‘웹 퍼블리싱’에 주목하였습니다. 그야말로 신세계를 만난 것처럼 기뻤습니다.
+                스스로를 웹 퍼블리싱 작가라고 생각하고 훌륭한 작품이 될 디자인 페이지를 구현하겠습니다. 또한 최근 화두가 되고 있는 UX/UI 디자인에도 관심을 가지고 웹 페이지 사용자들의 니즈를
+                충족하는 트렌드를 항상 연구하는 웹 퍼블리셔가 되고 싶습니다.</p>
+            </details>
+            <details>
+              <summary>[입사 후 포부: 실험과 도전의 제작자]</summary>
+              <p>웹 퍼블리셔는 디자인된 페이지를 웹 화면으로 구현하는 일을 합니다. 따라서 HTML, CSS, Java Script 등의 컴퓨터 기본 언어를 충실히 숙달해두는 것이 필요합니다. 저는
+                이러한 컴퓨터 언어 활용 능력을 더욱 계발하여 최고로 능숙한 수준으로 업그레이드하는 것을 1차 목표로 하고 있습니다.
+                나아가 PC와 모바일에서 구현되는 퍼블리싱에 따라 맞춤형 작업 능력을 기르고 싶습니다. 무엇보다도 가장 많은 민원 요청이 있는 홈페이지 유지 보수 작업에 있어서 퍼블리싱 작업이 필요한
+                부문에 신속하게 대응할 수 있는 능력을 기르겠습니다.
+                ‘절차탁마(切磋琢磨)’, “끊임없이 실력을 갈고 닦는다”는 의미를 가진 말입니다. 향후 저의 웹 퍼블리싱 도전기의 각오를 가장 잘 표현해주는 다짐이라고 생각합니다. 그야말로 고등학교
+                3학년 수험생의 절박한 심정으로 새 출발하겠다는 마음입니다. 성장하는 저의 미래와 회사의 발전을 위해 최선을 다하겠습니다.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="inner">
+        <ul class="footer-study">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/about.html">Resume</a></li>
+          <li><a href="/studylist.html">Study list</a></li>
+        </ul>
+        <div>Copyright ⓒ 2022. Jinseong Gwak All rights reserved.</div>
+      </div>
+
+
+    </footer>
+  </div>
+
+</body>
+
+</html>

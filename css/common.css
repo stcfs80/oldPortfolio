@@ -1,0 +1,86 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=East+Sea+Dokdo&family=Orbitron&display=swap');
+*{
+  margin:0;
+  padding:0;
+
+}
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+
+  font-weight: 300;
+  color: rgba(0,0,0,0.9);
+
+  line-height: 1.5;
+}
+
+.inner {
+  max-width: 1920px;
+  box-sizing: border-box;
+  padding:0 92px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+}
+.title{
+  text-align: center;
+  padding-bottom:60px;
+  font-size: 50px;
+}
+.textc{
+  text-align: center;
+}
+
+/* 백투탑 */
+#back-to-top {
+  position: fixed;
+  bottom: 3em;
+  right: -10em;
+  background-color: rgba(255, 255, 255, .9);
+  color: #313943;
+  border: none;
+  border-radius: 5px;
+  padding: 1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  box-shadow: 0 0 2em 0 rgba(0, 0, 0, .25);
+  transition: all .3s ease-in-out;
+  display: inline-block;
+  opacity: 0;
+  pointer-events: none;
+  text-decoration: none;
+  font-size: .75em;
+  cursor: pointer;
+}
+
+
+
+#back-to-top.visible {
+  pointer-events: auto;
+  right: 3em;
+  opacity: 0.5;
+  display:block;
+}
+
+#back-to-top:hover {
+  background-color: #fff;
+  padding: 1em 3em;
+  opacity: 1;
+}
+
+@media screen and (max-width:768px) {
+    #back-to-top.visible{
+      display:none;
+    }
+}

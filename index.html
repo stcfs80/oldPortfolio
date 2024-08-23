@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    
+  <meta name="robots" content="noindex">
+  <meta name="googlebot" content="noindex"><!-- 검색 안되게 하는것 -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 오픈그래프 -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://jinseong.pe.kr">
+  <meta property="og:title" content="Jinseong Portfolio">
+  <meta property="og:image" content="http://jinseong.pe.kr/images/profile.jpg">
+  <meta property="og:description" content="포트폴리오">
+  <meta property="og:site_name" content="Jinseong's Portfolio">
+  <meta property="og:locale" content="en_US">
+  <!-- 다음의 태그는 필수는 아니지만, 포함하는 것을 추천함 -->
+  <meta property="og:image:width" content="800">
+  <meta property="og:image:height" content="430">
+  <title>Jinseong's Portfolio</title>
+  <!-- 구글폰트 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700&display=swap" rel="stylesheet">
+  <!-- 파비콘 -->
+  <link rel="icon" href="images/favicon.png">
+  <!-- 구글 아이콘 -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <!-- css -->
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/mouseEffect.css">
+  <!-- js -->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"
+    integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script defer src="js/jquery-3.6.0.min.js"></script>
+  <script defer src="js/mouseEffect.js"></script>
+  <script defer src="js/typing.js"></script>
+  <script defer src="js/js.js"></script>
+
+  
+<!--   <script src="js/isotope.pkgd.min.js"></script> -->
+
+  
+  
+  <style>
+    .typing-txt {
+      display: none;
+    }
+  
+    .typing {
+      display: inline-block;
+    }
+  
+    .typing::after {
+      content: '';
+      animation-name: cursor;
+      animation-duration: 0.3s;
+      animation-iteration-count: 8;
+  
+    }
+  
+    @keyframes cursor {
+      0% {
+        border-right: 1px solid #fff
+      }
+  
+      50% {
+        border-right: 1px solid #000
+      }
+  
+      100% {
+        border-right: 1px solid #fff
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <input type="checkbox" id="menu-click" class="menu-click">
+  <div class="menu-modal">
+    <div class="cursor"></div>
+    <div class="cursorfollow"></div>
+    <div class="inner">
+      <div class="modal-top">
+        <img class="modal-logo" src="images/menu-logo.png" alt="gjs">
+        <label for="menu-click">
+          <div class="close"><span class="material-symbols-outlined">
+              close
+            </span></div>
+        </label>
+      </div>
+      <div class="modal-contents">
+        <div class="modal-left">
+          <dl>
+            <dt>My name</dt>
+            <dd>Jinseing-Gwak</dd>
+            <dt>Adress</dt>
+            <dd>경기도 의왕시 행복마을 3로 18</dd>
+            <dt>Contact</dt>
+            <dd>
+              010-7590-1023
+            </dd>
+            <dd>
+              Gorden42@naver.com
+            </dd>
+            <dt class="birth">Birth</dt>
+            <dd>1992.11.10</dd>
+            <dd class="d-day"></dd>
+          </dl>
+
+        </div>
+        <div class="modal-right">
+          <ul>
+            <li><a href="index.html"><span class="style1">Home</span></a></li>
+            <li><a href="about.html"><span class="style2">Resume</span></a></li>
+            <li><a href="studylist.html"><span class="style3">Book</span></a></li>
+          </ul>
+          <ol>
+            <li><span class="style4">Carpe diem</span> <span>"오늘을 즐겨라"</span></li>
+            <li><span class="style4">Memento mori</span> <span>"죽음을 기억하라"</span></li>
+            <li><span class="style4">Amor fati</span> <span>"운명을 사랑하라"</span></li>
+          </ol>
+        </div>
+      </div>
+      <div class="copy"><strong>Copyright ⓒ 2022.</strong> <br> Jinseong Gwak All rights reserved.</div>
+
+    </div>
+  </div>
+  <div class="all-layout">   
+    
+    <header>
+      <div class="inner">
+        <div class="header-wrap">
+          <h1 class="logo"><a href="index.html"><img src="images/logo.png" alt="gjs"></a></h1>
+          <strong class="header-title">Jinseong's Portfolio</strong>
+
+          
+          <label for="menu-click">
+            <div class="menu"><span class=" material-symbols-outlined ">density_medium</span></div>
+          </label>
+          
+
+        </div>
+      </div>
+    </header>
+    
+<main>
+      <section id="page1">
+        
+        
+        <article>
+          <div class="inner">
+            <div class="title-wrap">
+              <strong class="typing-txt">Welcome to my portfolio</strong>
+              <strong class="typing"></strong><br>
+              <strong class="fade-in">안녕하세요, 웹 퍼블리셔</strong><br>
+              <strong class="fade-in">곽진성 입니다.</strong>
+            </div>
+          </div>
+        </article>
+      </section>
+
+
+      <section id="page3">
+        <h2 class="title" id="portfolio">Portfolio</h2>
+        <ul class="p3-navi">
+          <li  class="all on"><a data-nav="all" href="javascript:void(0)">All</a></li>
+          <li  class="site"><a data-nav="site" href="javascript:void(0)">Site</a></li>
+          <li  class="pageB"><a data-nav="page" href="javascript:void(0)">Page</a></li>
+          <li  class="designB"><a data-nav="design" href="javascript:void(0)">Design</a></li>
+        </ul>
+        <article>
+          <div class="portfolio">
+            <!-- page -->
+            <!-- Web Story Boy -->
+            
+            <!-- Do it! -->
+            <div class="all page" data-item="page">
+              <div>
+                <a target="_blank" href="portfolio/page/villageanimation/index.html" title="2023-01-02">
+                  <img src="images/portfolio8.png" alt="3">
+                  <h3>Do it! Interactive</h3>
+                  <p>CSS를 이용한 애니메이션입니다.</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="all page" data-item="page">
+              <div>
+                <a target="_blank" href="portfolio/page/swiper/index.html" title="2023-01-02">
+                  <img src="images/portfolio7.png" alt="3">
+                  <h3>Do it! Interactive</h3>
+                  <p>스와이퍼를 이용한 페이지입니다.</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="all page" data-item="page">
+              <div>
+                <a target="_blank" href="portfolio/page/responsivegallery/index.html" title="2023-01-02">
+                  <img src="images/portfolio6.png" alt="3">
+                  <h3>Do it! Interactive</h3>
+                  <p>반응형 웹 갤러리 페이지입니다.</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="all page" data-item="page">
+              <div>
+                <a target="_blank" href="portfolio/page/panorama-company/index.html" title="2023-01-02">
+                  <img src="images/portfolio5.png" alt="3">
+                  <h3>Do it! Interactive</h3>
+                  <p>3d로 회전이 되는 페이지입니다.</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="all page" data-item="page">
+              <div>
+                <a target="_blank" href="portfolio/page/musicplay/index.html" title="2023-01-02">
+                  <img src="images/portfolio4.png" alt="3">
+                  <h3>Do it! Interactive</h3>
+                  <p>음악이 재생되고 화면이 회전되는 페이지입니다.</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="all page" data-item="page">
+              <div>
+                <a target="_blank" href="portfolio/page/movie-webpage/index.html" title="2023-01-02">
+                  <img src="images/portfolio3.png" alt="3">
+                  <h3>Do it! Interactive</h3>
+                  <p>영상이 재생되는 페이지입니다.</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="all page" data-item="page">
+              <div>
+                <a target="_blank" href="portfolio/page/member/member1.html" title="2023-01-02">
+                  <img src="images/portfolio2.png" alt="2">
+                  <h3>Do it! Interactive</h3>
+                  <p>원형 색상을 클릭하면 바뀌는 프로필 카드입니다.</p>
+                </a>
+              </div>
+            </div>
+
+
+            <!-- rock's easy web -->
+              <div class="all page" data-item="page">
+                <div>
+                  <a target="_blank" href="2rocksEasyWeb/slide/slide1.html" title="2023-02-04">
+                    <img src="images/portfolio-9.jpg" alt="1">
+                    <h3>Rock's Easy Web</h3>
+                    <p>Vanila Javascript 페이지 Slide 입니다.</p>
+                  </a>
+                </div>
+              </div>
+            <div class="all page" data-item="page">
+              <div>
+                <a target="_blank" href="portfolio/page/backtotop.html" title="2023-01-02">
+                  <img src="images/portfolio10.png" alt="1">
+                  <h3>Rock's Easy Web</h3>
+                  <p>Top 버튼을 누르면 최 상단으로 스크롤 되는 페이지입니다.</p>
+                </a>
+              </div>
+            </div>
+            <div class="all page" data-item="page">
+              <div>
+                <a target="_blank" href="2rocksEasyWeb/darklightmode.html" title="2023-01-02">
+                  <img src="images/portfolio-1.jpg" alt="1">
+                  <h3>Rock's Easy Web</h3>
+                  <p>버튼을 활용한 다크 & 라이트 모드입니다.</p>
+                </a>
+              </div>
+            </div>
+            <div class="all page" data-item="page">
+            <div>
+                <a target="_blank" href="2rocksEasyWeb/fullScreenLayout.html" title="2023-01-02">
+                  <img src="images/portfolio9.png" alt="1">
+                  <h3>Rock's Easy Web</h3>
+                  <p>배경화면을 동영상으로 적용한 페이지입니다.</p>
+                </a>
+            </div>
+            </div>
+
+            <!-- 패캠 -->
+            <div class="all page" data-item="page">
+              <div>
+                <a target="_blank" href="portfolio/page/Overwatch select/index.html" title="2023-01-02">
+                  <img src="images/portfolio-4.png" alt="1">
+                  <h3>Fastcampus</h3>
+                  <p>css를 이용한 캐릭터 선택 페이지입니다.</p>
+                </a>
+              </div>
+            </div>
+            
+
+            <!-- End Page -->
+
+            <!-- Site -->
+            <div class="all site" data-item="site">
+              <div>
+                <a target="_blank" href="portfolio/site/mgbox/index.html" title="2023-01-02">
+                  <img src="images/portfolio-1.png" alt="1">
+                  <h3>Web story Boy</h3>
+                  <p>메가박스 반응형 레이아웃 사이트입니다.</p>
+                </a>
+              </div>
+            </div>
+            <div class="all site" data-item="site">
+              <div>
+                <a target="_blank" href="portfolio/site/starbucks/index.html" title="2023-01-02">
+                  <img src="images/portfolio-2.png" alt="1">
+                  <h3>패스트 캠퍼스</h3>
+                  <p>스타벅스 웹 사이트입니다.</p>
+                </a>
+              </div>
+            </div>
+            <div class="all site" data-item="site">
+              <div>
+                <a target="_blank" href="portfolio/site/yuhan/yuhan.html" title="2022-08-01">
+                  <img src="images/portfolio-3.png" alt="1">
+                  <h3>그린 아트 컴퓨터학원</h3>
+                  <p>퍼블리싱을 배우고 처음 만들어본 사이트입니다.</p>
+                </a>
+              </div>
+            </div>
+            <!-- End Site -->
+
+
+            <!-- design -->
+            <!-- 패캠 -->
+              <div class="all design" data-item="design">
+                <div>
+                  <a target="_blank" href="https://xd.adobe.com/view/2b9d082d-b6d8-4e4c-8c3f-72fe4f51de38-7ece/" title="2023-02-12">
+                    <img src="images/portfolio-10.jpg" alt="1">
+                    <h3>패스트 캠퍼스</h3>
+                    <p>아이소 메트릭 디자인입니다.</p>
+                  </a>
+                </div>
+              </div>
+
+            <div class="all design" data-item="design">
+              <div>
+                <a target="_blank" href="https://xd.adobe.com/view/e50f0ac0-256c-4ae1-b092-5443fc8df026-b05c/" title="2023-01-06">
+                  <img src="images/portfolio-xd-11.png" alt="1">
+                  <h3>패스트 캠퍼스</h3>
+                  <p>화면이 회전하는 회전 UI 입니다.</p>
+                </a>
+              </div>
+            </div>
+            <!-- 맛있는 디자인 xd -->           
+            <div class="all design" data-item="design">
+              <div>
+                <a target="_blank" href="https://xd.adobe.com/view/f2ee7136-53d8-4c8a-a7fd-172489b045aa-a7bd/" title="2023-01-06">
+                  <img src="images/portfolio-xd-10.png" alt="1">
+                  <h3>맛있는 디자인 xd </h3>
+                  <p>XD 여행 소개앱 로그인페이지, 메인페이지, 소개 세부 페이지</p>
+                </a>
+              </div>
+            </div>
+            <div class="all design" data-item="design">
+              <div>
+                <a target="_blank" href="https://xd.adobe.com/view/b4a2d971-9dbd-435d-a1c9-9ecc47e2ae32-e1f1/" title="2023-01-06">
+                  <img src="images/portfolio-xd-9.png" alt="1">
+                  <h3>맛있는 디자인 xd</h3>
+                  <p>XD 뉴모피즘 스타일의 다이얼 드래그</p>
+                </a>
+              </div>
+            </div>
+            <div class="all design" data-item="design">
+              <div>
+                <a target="_blank" href="https://xd.adobe.com/view/0e32c825-2ce6-4857-bd8d-7dfb23e69aa8-5b61/" title="2023-01-06">
+                  <img src="images/portfolio-xd-8.png" alt="1">
+                  <h3>맛있는 디자인 xd</h3>
+                  <p>XD를 활용한 스포티파이 음악앱 UI입니다.</p>
+                </a>
+              </div>
+            </div>
+            <div class="all design" data-item="design">
+              <div>
+                <a target="_blank" href="https://xd.adobe.com/view/6083be2c-2190-4567-80ab-d0a60cac28cf-35d0/" title="2023-01-29">
+                  <img src="images/portfolio-8.jpg" alt="1">
+                  <h3>맛있는 디자인 xd</h3>
+                  <p>XD를 활용한 로그인 화면 디자인입니다.</p>
+                </a>
+              </div>
+            </div>
+            <div class="all design" data-item="design">
+              <div>
+                <a target="_blank" href=" https://xd.adobe.com/view/5617f849-998c-48da-aef4-882292831a00-0344/" title="2023-01-06">
+                  <img src="images/portfolio-xd-7.png" alt="1">
+                  <h3>맛있는 디자인 xd</h3>
+                  <p>XD를 활용한 간단한 마우스 오버(세로형)입니다.</p>
+                </a>
+              </div>
+            </div>
+            <div class="all design" data-item="design">
+              <div>
+                <a target="_blank" href=" https://xd.adobe.com/view/711b6a88-a1e9-4c5a-9da1-08feecf08849-2448/" title="2023-01-06">
+                  <img src="images/portfolio-xd-6.png" alt="1">
+                  <h3>맛있는 디자인 xd</h3>
+                  <p>XD를 활용한 간단한 마우스 오버(가로형)입니다.</p>
+                </a>
+              </div>
+            </div>
+            <div class="all design" data-item="design">
+              <div>
+                <a target="_blank" href="https://xd.adobe.com/view/76690d8d-38b9-42a5-9016-3695d35e73e8-233a/" title="2023-01-06">
+                  <img src="images/portfolio-xd-5.png" alt="1">
+                  <h3>맛있는 디자인 xd</h3>
+                  <p>XD를 활용한 마우스 오버 버튼 프로토타입입니다.</p>
+                </a>
+              </div>
+            </div>
+            <div class="all design" data-item="design">
+              <div>
+                <a target="_blank" href="https://xd.adobe.com/view/4a2baaa7-dc61-498c-aab6-7a789e73a5ec-1f78/" title="2023-01-06">
+                  <img src="images/portfolio-xd-2.png" alt="1">
+                  <h3>맛있는 디자인 xd</h3>
+                  <p>XD 프로토타입을 이용한 화면 슬라이드 입니다.</p>
+                </a>
+              </div>
+            </div>
+            <div class="all design" data-item="design">
+              <div>
+                <a target="_blank" href="https://xd.adobe.com/view/f5216fa4-6eb4-49c7-bf24-4859f83b3af2-a072/" title="2023-01-06">
+                  <img src="images/portfolio-xd-1.png" alt="1">
+                  <h3>맛있는 디자인 xd</h3>
+                  <p>XD 프로토타입을 이용한 모바일 화면전환 입니다.</p>
+                </a>
+              </div>
+            </div>
+            <div class="all design" data-item="design">
+              <div>
+                <a target="_blank" href="https://xd.adobe.com/view/9d042fde-536d-41fd-8c21-a2ed2c7b6d0d-c857/" title="2023-01-06">
+                  <img src="images/portfolio-xd-3.png" alt="1">
+                  <h3>맛있는 디자인 xd</h3>
+                  <p>XD 프로토타입을 이용한 대시보드 탭 화면전환입니다.</p>
+                </a>
+              </div>
+            </div>
+            <div class="all design" data-item="design">
+              <div>
+                <a target="_blank" href="https://xd.adobe.com/view/718d758a-9b4d-4cb4-9724-973a49a2bb65-24de/" title="2023-01-06">
+                  <img src="images/portfolio-xd-4.png" alt="1">
+                  <h3>맛있는 디자인 xd</h3>
+                  <p>XD를 활용한 간단한 아이콘입니다.</p>
+                </a>
+              </div>
+            </div>
+            <!-- End Design -->
+
+
+          </div>
+
+       
+          <div class="page-nation">
+            <div class="prev-group"></div>
+            <div class="page-nation-group"></div>
+            <div class="next-group"></div>
+          </div>
+          
+        </article>
+      </section>
+
+      <footer>
+        <div class="inner">
+          <ul class="footer-study">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">Resume</a></li>
+            <li><a href="/book.html">Book</a></li>
+          </ul>
+          <div>Copyright ⓒ 2022. Jinseong Gwak All rights reserved.</div>
+          <div id="back-to-top">Top</div>
+        </div>
+      
+      
+      </footer>
+    
+</main>
+
+
+</div>
+</body>
+
+</html>

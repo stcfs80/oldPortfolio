@@ -1,0 +1,72 @@
+  #study-page1 dl {
+    padding-top: 95px;
+    padding-bottom: 95px;
+    background-color: rgb(250, 250, 250);
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+  }
+
+  #study-page1 dl>div {
+    line-height: 1.4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    vertical-align: none;
+    max-width: 1000px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 20px;
+    
+  }
+
+  #study-page1 dl>div>div {
+    background-image: linear-gradient(135deg, white 0%, rgb(249, 249, 249) 65%, rgb(242,242,242) 98%,white 100%);
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 250px;
+    background-color: white;
+    padding: 10px 15px;
+    box-shadow: 5px 5px 10px rgb(216, 216, 216)
+  }
+
+
+  #study-page1 dl dt {
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  #study-page1 dl dd {
+    padding-top: 10px;
+    font-weight: 200;
+    font-size: 14px;
+  }
+
+  #study-page1 dl dd.complete a:hover {
+    color: BLACK;
+    font-weight: bold;
+    opacity: 1;
+  }
+
+  #study-page1 dl dd a {
+
+    pointer-events: none;
+  }
+
+  #study-page1 .complete a {
+    opacity: 0.9;
+    font-weight: normal;
+    pointer-events: auto;
+  }
+
+  #study-page1 dl * {
+    color: rgb(78, 78, 78);
+  }
+
+  @media screen and (max-width:768px) {
+    #study-page1 dl {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
